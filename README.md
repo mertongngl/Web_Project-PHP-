@@ -1,0 +1,1 @@
+# Spor merkezi otomasyonu projesi
