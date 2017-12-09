@@ -7,4 +7,9 @@
         }
         return $rand;
     }
+    function filter_sql($db,$string){
+        $filtered=mysqli_real_escape_string($db,trim(htmlspecialchars($string)));
+
+        return $filtered;
+    }
 ?>

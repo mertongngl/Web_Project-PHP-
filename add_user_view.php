@@ -17,7 +17,7 @@
                         </div>
                         <div class="form-group">
                             <label>Soyad</label><br>
-                            <input type="text" class="form-control" name="mem_lastname_txt" placeholder="Soyadını giriniz">
+                            <input type="text" class="form-control" name="mem_surname_txt" placeholder="Soyadını giriniz">
                         </div>
                         <div class="form-group">
                             <label>Telefon</label><br>
@@ -40,7 +40,7 @@
                         <div class="form-group">
                             <label>Cinsiyet</label><br>
                             <select name="mem_gender_slc" class="form-control select2" id="select2-jgyj-container">
-                                <option value="E">
+                                <option value="E" selected>
                                     Erkek
                                 </option>
                                 <option value="K">

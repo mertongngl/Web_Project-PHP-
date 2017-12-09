@@ -38,7 +38,7 @@ date_default_timezone_set('Europe/Istanbul');
   <div class="wrapper">
     <header class="main-header">
       <a href="index.php" class="logo" style="background: #222d32">
-        <span class="logo-mini"><b><font color="#3f8be4">İ</font></b><font color="#fe256b">S</font></span>
+        <span class="logo-mini"><b><font color="#3f8be4">S</font></b><font color="#fe256b">M</font></span>
         <span class="logo-lg" style="background: #222d32"><b><font color="#3f8be4">SPOR</font> <font color="#fe256b">MERKEZİ</font></b> Personel</span>
       </a>
       <nav class="navbar navbar-static-top">
