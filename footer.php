@@ -37,7 +37,7 @@
     <script src="../dist/js/demo.js"></script>
     </body>
     </div>
-    <center><bold><a href="github.com/oznshn1">Ozan Şahin</a> & <a href="github.com/mertongngl">Mert Öngengil</a></bold></center>
+    <center><bold><a href="https://www.github.com/oznshn1">Ozan Şahin</a> & <a href="https://www.github.com/mertongngl">Mert Öngengil</a></bold></center>
 </footer>
 <aside class="control-sidebar control-sidebar-dark">
     <ul class="nav nav-tabs nav-justified control-sidebar-tabs">

@@ -1,9 +1,10 @@
 <?php 
 	
 	include "admin/connection.php";
+	include "customFunctions.php";
 
 	if (isset($_POST['login_btn'])) {
-		$request=mysqli_query($db,"select * from users_tbl where user_name='".htmlspecialchars($_POST['user_name_txt'])."' and user_password='".md5(htmlspecialchars($_POST['user_password_txt']))."'");
+		$request=mysqli_query($db,"select * from users_tbl where user_name='".filter_sql($db,$_POST['user_name_txt'])."' and user_password='".md5(filter_sql($db,$_POST['user_password_txt']))."'");
 		$response=mysqli_fetch_assoc($request);
 
 

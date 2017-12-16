@@ -13,8 +13,8 @@
         </aside>
         <div class="control-sidebar-bg"></div>
     </div>
-    <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
-    <script src="plugins/jQuery/jquery-1.3.2.min.js"></script>
+    <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/jQuery/jquery-1.3.2.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <script>
         $.widget.bridge('uibutton', $.ui.button);
@@ -37,7 +37,7 @@
     <script src="../dist/js/demo.js"></script>
     </body>
     </div>
-    <center><bold><a href="github.com/oznshn1">Ozan Şahin</a> & <a href="github.com/mertongngl">Mert Öngengil</a></bold></center>
+    <center><bold><a href="https://www.github.com/oznshn1">Ozan Şahin</a> & <a href="https://www.github.com/mertongngl">Mert Öngengil</a></bold></center>
 </footer>
 <aside class="control-sidebar control-sidebar-dark">
     <ul class="nav nav-tabs nav-justified control-sidebar-tabs">

@@ -123,7 +123,6 @@
                 $(this).val( first + move + '-' + lastfour );
             }
         });
-    });
     <?php
     include "footer.php";
 ?>

@@ -14,13 +14,37 @@ $response=mysqli_fetch_assoc($request);
             </div>
             <div class="pull-left info">
                 <p>Merhaba <?php echo " ".$response['emp_name']?>!</p>
+                <center style="font-size: small;color: #3f8be4"><b>( MÜDÜR )</b></center>
             </div>
         </div>
         <ul class="sidebar-menu">
-
+            <li class="treeview">
+                <a href="employee_add_view.php">
+                    <span>Çalışan Ekle</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="equ_vendor_add_view.php">
+                     <span>Tedarikçi Ekle</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="equipments_add_view.php">
+                     <span>Ekipman Ekle</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+            </li>
             <li class="treeview">
                 <a href="../admin/logout.php">
-                    <i class="fa fa-dashboard"></i> <span>Çıkış Yap</span>
+                     <span>Çıkış Yap</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>

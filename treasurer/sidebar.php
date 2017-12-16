@@ -1,7 +1,8 @@
 <?php
 include "../admin/connection.php";
+include "../customFunctions.php";
 
-$request=mysqli_query($db,"select * from employees_tbl where emp_id='".$_SESSION['emp_id']."'");
+$request=mysqli_query($db,"select * from employees_tbl where emp_id='".filter_sql($db,$_SESSION['emp_id'])."'");
 $response=mysqli_fetch_assoc($request);
 
 ?>
