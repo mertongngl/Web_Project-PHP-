@@ -1,10 +1,10 @@
 <?php
 
-include "admin/connection.php";
+include "../admin/connection.php";
 error_reporting(E_ALL ^ E_NOTICE);
 ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
-if(strcmp($_SESSION['authority_code'],"VEZ") == 0) {
+if(strcmp($_SESSION['authority_code'],"VEZ") != 0) {
     header('Location:../login.php');
 }
 

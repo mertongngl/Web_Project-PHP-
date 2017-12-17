@@ -27,6 +27,14 @@ $response=mysqli_fetch_assoc($request);
                 </a>
             </li>
             <li class="treeview">
+                <a href="create_contract_pdf.php">
+                    <span>Kontratlar</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+            </li>
+            <li class="treeview">
                 <a href="create_employee_pdf.php">
                     <span>Çalışan Rapor</span>
                     <span class="pull-right-container">
