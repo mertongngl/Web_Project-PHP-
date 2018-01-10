@@ -13,7 +13,7 @@
                         <div class="tab-pane active">
                             <div class="box">
                                 <div class="box-header">
-                                    <h3 class="box-title">Kayıtlı Olan Çalışan</h3>
+                                    <h3 class="box-title">Kayıtlı Olan Üyeler</h3>
                                 </div>
                                 <div class="box-body table-responsive no-padding">
                                     <table class="table table-hover">

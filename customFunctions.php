@@ -12,4 +12,17 @@
 
         return $filtered;
     }
+    function check_phone($string){
+
+        if(preg_match("/^05[0-9]{2}[0-9]{3}[0-9]{4}$/", $string)) {
+            return true;
+        }
+        return false;
+    }
+    function check_date($string){
+        if (preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/",$string)) {
+            return true;
+        }
+        return false;
+    }
 ?>

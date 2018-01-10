@@ -1,6 +1,12 @@
 <?php
     include "admin/connection.php";
     include "customFunctions.php";
+    if (isset($_POST['mem_add_btn']) && !check_date(filter_sql($db,$_POST['mem_birthdate_txt']))){
+        echo "<script type='text/javascript'>alert('Doğum tarihini doğru formatta giriniz');window.location = 'add_user_view.php';</script>";
+    }
+    if (isset($_POST['mem_add_btn']) && !check_phone(filter_sql($db,$_POST['mem_phone_txt']))){
+        echo "<script type='text/javascript'>alert('Telefonu doğru formatta giriniz');window.location = 'add_user_view.php';</script>";
+    }
     if (isset($_POST['mem_add_btn'])){
         $imageFileType = pathinfo(filter_sql($db,$_FILES['mem_photo_url']['name']),PATHINFO_EXTENSION);
         $imageName=$_FILES['mem_photo_url']['name'];
